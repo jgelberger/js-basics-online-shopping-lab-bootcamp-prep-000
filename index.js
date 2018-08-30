@@ -77,7 +77,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   var card = cardNumber;
-  var totes = total().tostring();
+  var totes = total().toString();
   if (card) {
     cart = [];
     return `Your total cost is $${totes}, which will be charged to the card ${card}.`
